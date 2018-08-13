@@ -66,6 +66,8 @@ setdiff(all_default_pkgs, all_br_pkgs)
 
 # Not in mine! I have lots of user-installed packages in .Library
 
+## A change from github
+
 ## study package naming style (all lower case, contains '.', etc
 
 ## use `fields` argument to installed.packages() to get more info and use it!
