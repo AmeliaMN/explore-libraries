@@ -1,7 +1,7 @@
 01\_explore-libraries\_jenny.R
 ================
 amelia
-Mon Aug 13 13:21:13 2018
+Mon Aug 13 13:23:33 2018
 
 ``` r
 # Loading packages
@@ -108,6 +108,10 @@ Reflections
 ``` r
 ## reflect on ^^ and make a few notes to yourself; inspiration
 ##   * does the number of base + recommended packages make sense to you?
+
+## Yes! It matches with the information from the slides, 14 base packages
+# and 15 recommended.
+
 ##   * how does the result of .libPaths() relate to the result of .Library?
 ```
 
@@ -159,6 +163,8 @@ setdiff(all_default_pkgs, all_br_pkgs)
     ## [97] "xfun"            "xml2"            "yaml"
 
 ``` r
+# Not in mine! I have lots of user-installed packages in .Library
+
 ## study package naming style (all lower case, contains '.', etc
 
 ## use `fields` argument to installed.packages() to get more info and use it!
