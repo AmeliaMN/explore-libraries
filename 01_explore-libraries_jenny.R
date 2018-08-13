@@ -46,6 +46,10 @@ ipt %>%
 
 ## reflect on ^^ and make a few notes to yourself; inspiration
 ##   * does the number of base + recommended packages make sense to you?
+
+## Yes! It matches with the information from the slides, 14 base packages
+# and 15 recommended.
+
 ##   * how does the result of .libPaths() relate to the result of .Library?
 
 
