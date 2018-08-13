@@ -76,7 +76,5 @@ ipt2 %>%
   count(github) %>%
   mutate(prop = n / sum(n))
 
-# Make another change
-
 # Session info
 sessionInfo()
