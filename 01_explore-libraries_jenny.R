@@ -1,5 +1,5 @@
 #' ---
-#' output: github_document
+#' output: html_document
 #' ---
 
 # Loading packages
@@ -76,6 +76,7 @@ ipt2 %>%
   count(github) %>%
   mutate(prop = n / sum(n))
 
+# Make another change
 
 # Session info
 sessionInfo()

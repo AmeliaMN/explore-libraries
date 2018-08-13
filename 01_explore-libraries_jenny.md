@@ -1,7 +1,7 @@
 01\_explore-libraries\_jenny.R
 ================
 amelia
-Mon Aug 13 13:24:38 2018
+Mon Aug 13 13:30:37 2018
 
 ``` r
 # Loading packages
@@ -183,6 +183,8 @@ ipt2 %>%
     ## 2 TRUE      78 0.614
 
 ``` r
+# Make another change
+
 # Session info
 sessionInfo()
 ```
